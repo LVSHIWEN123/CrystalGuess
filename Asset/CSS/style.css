@@ -1,0 +1,61 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1 {
+    font-size: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+p {
+    padding: 20px;
+}
+
+#result {
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    margin-left: 250px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#count {
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    margin-left: 250px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+ul li {
+    width: 150px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 15px;
+    float: left;
+    border-radius: 120px;
+}
+
+button {
+    margin-left: 20px;
+}
